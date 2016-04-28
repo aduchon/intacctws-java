@@ -60,13 +60,11 @@ import static org.junit.Assert.assertNotNull;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
-import org.json.XML;
 import org.junit.Test;
 
 import com.intacct.ws.APISession;

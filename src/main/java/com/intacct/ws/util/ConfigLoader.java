@@ -6,9 +6,6 @@ import java.io.InputStream;
 import java.util.Map;
 import java.util.Properties;
 
-import org.json.JSONObject;
-
-import com.intacct.ws.APIUtil;
 import com.intacct.ws.exception.IntacctSDKRuntimeException;
 
 /**

@@ -15,6 +15,17 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</repository>
+		
+		<!--  to make it available -->
+		<repository>
+			<id>intacctws-java-mvn-repo</id>
+			<name>MVN version of Intacct WS Java</name>
+			<url>https://raw.github.com/aduchon/intacctws-java/mvn-repo</url>
+			<snapshots>
+				<enabled>true</enabled>
+				<updatePolicy>always</updatePolicy>
+			</snapshots>
+		</repository>
 
 	</repositories>
 
