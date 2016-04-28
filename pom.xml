@@ -15,17 +15,6 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</repository>
-		
-		<!--  to make it available -->
-		<repository>
-			<id>intacctws-java-mvn-repo</id>
-			<name>MVN version of Intacct WS Java</name>
-			<url>https://raw.github.com/aduchon/intacctws-java/mvn-repo</url>
-			<snapshots>
-				<enabled>true</enabled>
-				<updatePolicy>always</updatePolicy>
-			</snapshots>
-		</repository>
 
 	</repositories>
 
@@ -70,17 +59,6 @@
 						</execution>
 					</executions>
 				</plugin>
-				<plugin>
-					<groupId>com.ejwa</groupId>
-					<artifactId>maven-gitdep-plugin</artifactId>
-					<version>0.1</version>
-					<configuration>
-						<gitDependencies>
-
-						</gitDependencies>
-					</configuration>
-				</plugin>
-
 			</plugins>
 		</pluginManagement>
 	</build>
